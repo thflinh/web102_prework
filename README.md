@@ -22,15 +22,9 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+![SeaMonster](https://github.com/user-attachments/assets/9b13ce1b-f807-4f27-ac1a-6cb96f06052e)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Watch the video here: (https://www.loom.com/share/fa6ee0dca0df4d119e7d120ad6d5b78e?sid=d821e332-f242-4cde-a965-93c09a5c0ad4)
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+🎥 Watch the full video walkthrough here: [Loom Video](https://www.loom.com/share/fa6ee0dca0df4d119e7d120ad6d5b78e?sid=d821e332-f242-4cde-a965-93c09a5c0ad4)
 
 ## Notes
 
