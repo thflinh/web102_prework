@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+Watch the video here: (https://www.loom.com/share/fa6ee0dca0df4d119e7d120ad6d5b78e?sid=d821e332-f242-4cde-a965-93c09a5c0ad4)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
