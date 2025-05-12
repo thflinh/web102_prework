@@ -20,10 +20,8 @@ The following **optional** features are implemented:
 * [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
-
 Here's a walkthrough of implemented features:
-![9tm3s2](https://github.com/user-attachments/assets/d8985c12-1e80-4816-8fd0-3377f42be1d3)
-
+![9tmmrl](https://github.com/user-attachments/assets/ee1adb65-7bbc-41fb-8827-36f4ca3b0671)
 🎥 Watch the full video walkthrough here: [Loom Video](https://www.loom.com/share/fa6ee0dca0df4d119e7d120ad6d5b78e?sid=d821e332-f242-4cde-a965-93c09a5c0ad4)
 
 ## Notes
