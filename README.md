@@ -21,7 +21,11 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 Here's a walkthrough of implemented features:
+
 ![9tmmrl](https://github.com/user-attachments/assets/ee1adb65-7bbc-41fb-8827-36f4ca3b0671)
+
+
+
 🎥 Watch the full video walkthrough here: [Loom Video](https://www.loom.com/share/fa6ee0dca0df4d119e7d120ad6d5b78e?sid=d821e332-f242-4cde-a965-93c09a5c0ad4)
 
 ## Notes
