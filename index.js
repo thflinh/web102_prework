@@ -40,12 +40,13 @@ function addGamesToPage(games) {
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-        gameCard.innerHTML = `<img src="${game.image}" class="game-img" />
+        gameCard.innerHTML = `<img src="assets/${game.image}.png" class="game-img" />
             <h2>${game.name}</h2>
-            <p>Amount Pledged: $${game.pledged.toLocaleString()}</p>
-            <p>Goal: $${game.goal.toLocaleString()}</p>
+            <p>Backers: ${game.backers}</p>
         `;
-
+        // <p>Amount Pledged: $${game.pledged.toLocaleString()}</p>
+        // <p>Goal: $${game.goal.toLocaleString()}</p>
+        
         // append the game to the games-container
         gamesContainer.appendChild(gameCard);
     });
@@ -142,21 +143,13 @@ allBtn.addEventListener("click", showAllGames);
 // grab the description container
 const descriptionContainer = document.getElementById("description-container");
 
-// // use filter or reduce to count the number of unfunded games
-// const unfundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).length;
+// Clear existing content
+deleteChildElements(descriptionContainer);
 
-// // create a string that explains the number of unfunded games using the ternary operator
-// totalRaised = GAMES_JSON.reduce((acc, game) => acc + game.pledged, 0);
-// const totalGames = GAMES_JSON.length;
-// const displayStr = `A total of $${totalRaised.toLocaleString()} has been raised for ${totalGames} game${totalGames !== 1 ? 's' : ''}. ` +
-//                   `Currently, ${unfundedGamesCount} game${unfundedGamesCount !== 1 ? 's' : ''} remain${unfundedGamesCount === 1 ? 's' : ''} unfunded.`;
-
-
-// // create a new DOM element containing the template string and append it to the description container
-// const infoParagraph = document.createElement('p');
-// infoParagraph.textContent = displayStr;
-// deleteChildElements(descriptionContainer);
-// descriptionContainer.appendChild(infoParagraph);
+// Add static paragraph about the company
+const companyParagraph = document.createElement('p');
+companyParagraph.textContent = "The purpose of our company is to fund independent games. We've been in operation for 12 years.";
+descriptionContainer.appendChild(companyParagraph);
 
 // Calculate statistics without modifying original array
 const unfundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).length;
@@ -165,12 +158,12 @@ const totalGamesCount = GAMES_JSON.length;
 
 // create display string
 const displayStr = `A total of $${calculatedTotalRaised.toLocaleString()} has been raised for ${totalGamesCount} game${totalGamesCount !== 1 ? 's' : ''}. ` +
-                  `Currently, ${unfundedGamesCount} game${unfundedGamesCount !== 1 ? 's' : ''} remain${unfundedGamesCount === 1 ? 's' : ''} unfunded.`;
+                  `Currently, ${unfundedGamesCount} game${unfundedGamesCount !== 1 ? 's' : ''} remain${unfundedGamesCount === 1 ? 's' : ''} unfunded. We need your help to fund these amazing games!`;
 
 // update DOM
 const infoParagraph = document.createElement('p');
 infoParagraph.textContent = displayStr;
-deleteChildElements(descriptionContainer);
+//deleteChildElements(descriptionContainer);
 descriptionContainer.appendChild(infoParagraph);
 
 /************************************************************************************
